@@ -129,7 +129,7 @@ lazy val commonSettings = Seq(
     ),
   ),
   versionScheme     := Some("semver-spec"),
-  Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement
+  Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
 )
 
 lazy val pekkoVersion               = "1.1.3"
